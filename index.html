@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="yummy app for food" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <!--bootstrap style  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font-awesome style -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- main style  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- media query -->
+    <link rel="stylesheet" href="./css/media.css" />
+
+    <title>Yummy</title>
+  </head>
+  <body>
+    <!-- eng ahmed hosin -->
+    <!-- preloader -->
+    <div
+      class="preloading fixed-top w-100 vh-100 justify-content-center align-items-center bg-black text-white"
+    >
+      <i class="fa-solid fa-spinner fa-spin"></i>
+    </div>
+    <!-- menu -->
+    <header class="menu d-inline-block vh-100 position-fixed top-0">
+      <div class="d-flex h-100">
+        <div
+          class="menu__left h-100 d-flex flex-column justify-content-between"
+        >
+          <nav class="nav">
+            <ul
+              class="nav__list list-unstyled overflow-hidden position-relative w-100"
+            >
+              <li class="nav__item">
+                <a class="nav__link" href="#">Search</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Categories</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Area</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Ingredients</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="nav__footer">
+            <ul class="social-icon list-unstyled d-flex">
+              <li>
+                <a
+                  class="text-white"
+                  href="#
+                "
+                >
+                  <i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="text-white"
+                  href="#
+                "
+                >
+                  <i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="text-white"
+                  href="#
+                "
+                >
+                  <i class="fa-solid fa-globe"></i
+                ></a>
+              </li>
+            </ul>
+            <p>Copyright Â© 2019 All Rights <br />Reserved.</p>
+          </div>
+        </div>
+        <div
+          class="menu__right bg-danger h-100 d-flex flex-column justify-content-between text-black bg-white text-center"
+        >
+          <a href="./index.html"
+            ><img src="img/logo.png" class="logo" alt="yummy"
+          /></a>
+
+          <div
+            class="d-flex justify-content-center align-items-center p-4 pointer menu__icon"
+          >
+            <div class="nav-icon"></div>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-globe d-block mb-3"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main contains section -->
+    <main>
+      <!-- inner preloader -->
+      <section class="search-section container w-75">
+        <div class="row ms-4 ms-sm-0 py-5 gx-4 gy-3">
+          <div class="col-md-6">
+            <input
+              class="search-name form-control bg-transparent text-white w-100"
+              type="text"
+              placeholder="Search By Name"
+            />
+          </div>
+          <div class="col-md-6">
+            <input
+              class="search-letter form-control bg-transparent text-white w-100"
+              type="text"
+              placeholder="Search By First Letter"
+              maxlength="1"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- section main content -->
+      <section class="w-100 min-vh-100 main-content">
+        <div class="inner-preloader min-vh-100 w-100">
+          <div
+            class="d-flex align-items-center text-white min-vh-100 justify-content-center"
+          >
+            <i class="fa-solid fa-spinner fa-spin"></i>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row py-5 g-5" id="rowData"></div>
+        </div>
+      </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

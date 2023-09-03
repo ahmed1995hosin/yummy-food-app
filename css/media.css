@@ -1,0 +1,38 @@
+/* normal media query */
+/* big screen */
+@media screen and (min-width: 1400px) {
+}
+/* media query should start from big screen to the smallest one in order with max-width */
+/* xl */
+@media screen and (max-width: 1400px) {
+}
+/* l */
+@media screen and (max-width: 1200px) {
+}
+/* m */
+@media screen and (max-width: 991px) {
+}
+/* s */
+@media screen and (max-width: 768px) {
+}
+/* xs */
+@media screen and (max-width: 600px) {
+  .contact input {
+    margin-left: 2rem;
+  }
+  #submitBtn {
+    width: 100% !important;
+    margin-left: 2rem;
+  }
+  .text-small {
+    margin-left: 3.2rem;
+  }
+  .toggle-pass {
+    right: 0rem;
+  }
+}
+/*----------------------- */
+/*----------------------- */
+/*----------------------- */
+/*----------------------- */
+/*----------------------- */
